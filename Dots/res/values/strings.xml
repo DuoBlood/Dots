@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dots</string>
+    
+    <string name="but_start">START</string>
+    <string name="but_back">GO BACK</string>
+    <string name="but_clear">CLEAR FIELD</string>
+    <string name="but_go">go</string>
+    
+    <string name="hello">HELLO</string>
+    <string name="rows">rows</string>
+    <string name="columns">columns</string>
+    
+    <string name="add">add connection</string>
+    <string name="delete">delete connection</string>
+    <string name="check">check connection</string>
+    
+    <string name="must_be_more">Значения должны быть больше 0</string> 
+    <string name="dot_doesnt_exist">Выбранной точки не существует!</string> 
+    <string name="dots_must_be_different">точки должны быть разные!</string>
+    <string name="dots_must_be_near">Точки должны быть рядом!</string> 
+	<string name="not_all_fields_are_filled">не все поля заполнены!</string> 
+	<string name="max_rows">Максимальный размер строк </string> 
+	<string name="max_columns">Максимальный размер столбцов </string> 
+    
+    
+   <!-- 
+   		<string name=""></string> 
+   --> 
+</resources>
