@@ -7,6 +7,9 @@ public class App extends Application {
 	// Растояние между точками
 	public static int step = 50;
 	
+	//Радиус точки
+	public static final int radius = 10;
+	
 	// Начальые координаты точек
 	public static int startX = 50;
 	public static int startY = 50;

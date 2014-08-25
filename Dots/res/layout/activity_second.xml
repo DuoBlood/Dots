@@ -2,15 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="5dp"
     android:orientation="vertical"
     android:weightSum="1" >
 
-    <com.example.dots.view.DrawView
-        android:id="@+id/drawiView1"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.4" />
+        android:layout_weight="0.4" >
+
+        <com.example.dots.view.DrawView
+            android:id="@+id/drawiView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4" />
+
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,11 +57,11 @@
 
                 <EditText
                     android:id="@+id/edt_add_first"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_weight="1.5"
+                    android:layout_weight="1"
                     android:background="@drawable/shape_edt"
                     android:ems="10"
                     android:inputType="number"
@@ -68,11 +74,11 @@
 
                 <EditText
                     android:id="@+id/edt_add_second"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_weight="1.5"
+                    android:layout_weight="1"
                     android:background="@drawable/shape_edt"
                     android:ems="10"
                     android:inputType="number"
@@ -82,7 +88,7 @@
                 <Button
                     android:id="@+id/but_go_add"
                     style="?android:attr/buttonStyleSmall"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:layout_weight="1"
@@ -119,15 +125,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center" >
+                android:gravity="center"
+                android:weightSum="3" >
 
                 <EditText
                     android:id="@+id/edt_delete_first"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_weight="1.5"
+                    android:layout_weight="1"
                     android:background="@drawable/shape_edt"
                     android:ems="10"
                     android:inputType="number"
@@ -136,11 +143,11 @@
 
                 <EditText
                     android:id="@+id/edt_delete_second"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_weight="1.5"
+                    android:layout_weight="1"
                     android:background="@drawable/shape_edt"
                     android:ems="10"
                     android:inputType="number"
@@ -150,9 +157,10 @@
                 <Button
                     android:id="@+id/but_go_delete"
                     style="?android:attr/buttonStyleSmall"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
+                    android:layout_weight="1"
                     android:background="@drawable/shape_but"
                     android:text="@string/but_go" />
 
@@ -186,15 +194,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center" >
+                android:gravity="center"
+                android:weightSum="3" >
 
                 <EditText
                     android:id="@+id/edt_check_first"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_weight="1.5"
+                    android:layout_weight="1"
                     android:background="@drawable/shape_edt"
                     android:ems="10"
                     android:inputType="number"
@@ -203,11 +212,11 @@
 
                 <EditText
                     android:id="@+id/edt_check_second"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_weight="1.5"
+                    android:layout_weight="1"
                     android:background="@drawable/shape_edt"
                     android:ems="10"
                     android:inputType="number"
@@ -217,9 +226,10 @@
                 <Button
                     android:id="@+id/but_go_check"
                     style="?android:attr/buttonStyleSmall"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
+                    android:layout_weight="1"
                     android:background="@drawable/shape_but"
                     android:text="@string/but_go" />
 
